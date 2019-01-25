@@ -1,4 +1,4 @@
-#DDPG
+# DDPG
 ## 1. 공부시 유의할점
 #### -soft update에 관하여
 target network 는 main critic 의 학습 방향이 흔들리지 않도록 하기 위한 수단이다.

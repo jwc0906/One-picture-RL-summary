@@ -6,7 +6,7 @@
 target network 는 main critic 의 학습 목표가 흔들리지 않도록 하기 위한 수단이다.
 DQN 에서는 target network를 고정시켜두고 그 방향으로 main network 학습을 진행하며 일정 step 마다 한번씩 main network의 w를 target network로 그대로 복사하는데, DDPG 에서는 매 step 마다 soft update 한다. 이 soft update로 인해 target network의 w는 main network w 방향으로 매 step 조금씩 이동한다.
 
-## 2. one picture
+## 2. DDPG in one page
 ![ddpg](https://user-images.githubusercontent.com/9976453/51683122-724fe800-202c-11e9-8e72-97eb538584b2.png)
 
 #### 참고하면 좋은 사이트

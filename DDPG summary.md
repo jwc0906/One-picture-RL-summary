@@ -1,5 +1,5 @@
 # DDPG
-####### 논문: https://arxiv.org/pdf/1509.02971.pdf
+###### 논문: https://arxiv.org/pdf/1509.02971.pdf
 
 ## 1. 공부시 유의할점
 #### -soft update에 관하여
@@ -9,6 +9,6 @@ DQN 에서는 target network를 고정시켜두고 그 방향으로 main network
 ## 2. one picture
 ![ddpg](https://user-images.githubusercontent.com/9976453/51683122-724fe800-202c-11e9-8e72-97eb538584b2.png)
 
-#### 참고하면 좋은 
+#### 참고하면 좋은 사이트
 ###### https://github.com/170928/-Review-Continuous-Control-With-Deep-Reinforcement-Learning
 ###### https://reinforcement-learning-kr.github.io/2018/06/26/3_ddpg/
